@@ -8,4 +8,6 @@ This API has several options of front-end posibilities that can be applied. In t
 4. Data table for Thymelef frontend
 5. Postman frontend tester
 
+All databases must always have seven fields to maintain consistances
+
 
