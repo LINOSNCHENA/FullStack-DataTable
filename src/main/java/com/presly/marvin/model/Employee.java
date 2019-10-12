@@ -1,6 +1,5 @@
 package com.presly.marvin.model;
 import java.util.Date;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -10,8 +9,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "bank1")
-public class Employee {
-	
+public class Employee {	
 	@Id
 	@Column(name = "id")
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -32,31 +30,30 @@ public class Employee {
 	private Date createdt;
 
 public Employee(String name, String post, String dept,
-		int salary, String status, Date createdt) 			// SECOND
-		
-		{
-		this.name = name;			this.post = post;		
-		this.dept = dept;			this.salary = salary;	
-		this.status = status;		this.createdt = createdt;	 }
+	int salary, String status, Date createdt) 				// SECOND		
+	{
+	this.name = name;			this.post = post;		
+	this.dept = dept;			this.salary = salary;	
+	this.status = status;		this.createdt = createdt;	 
+	}
 
-public Employee()     			    {}						// THIRD
-	
-public int getId()		 		    {	return id;			}
-public void setId(int id) 		    {	this.id = id;		}
-public String getName()  		    {	return name;		}
-public void setName(String name)  {   this.name = name;	}
+public Employee() {}											// THIRD	
+	public int getId()		 		    {	return id;			}
+	public void setId(int id) 		    {	this.id = id;		}
+	public String getName()  		    {	return name;		}
+	public void setName(String name)  {   this.name = name;	}
 
-public String getDept()  		  {	return dept;			}
-public void setDept(String dept)  {	this.dept = dept;		}
-public String getPost()  		  {	return post;			}
-public void setPost(String post)  {	this.post = post;		}
+	public String getDept()  		  {	return dept;			}
+	public void setDept(String dept)  {	this.dept = dept;		}
+	public String getPost()  		  {	return post;			}
+	public void setPost(String post)  {	this.post = post;		}
 
-public int getSalary()          		 {	return salary;		 	 }
-public void setSalary(int salary)		 {	this.salary = salary;	 }
-public String getStatus()  		 	     {	return status;		 	 }
-public void setStatus(String status)     {	this.status = status; 	 }
+	public int getSalary()          	   { return salary;		 	 }
+	public void setSalary(int salary)	   { this.salary = salary;	 }
+	public String getStatus()  		 	   { return status;		 	 }
+	public void setStatus(String status)   { this.status = status; 	 }
 
-public Date getCreatedt()  		 	   {	return createdt;		  }
-public void setCreatedt(Date createdt) {	this.createdt = createdt; }
+	public Date getCreatedt()  		 	   { return createdt;		  }
+	public void setCreatedt(Date createdt) { this.createdt = createdt; }
 
 }
