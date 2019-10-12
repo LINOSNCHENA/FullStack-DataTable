@@ -3,10 +3,11 @@ $(document).ready( function () {
 			"sAjaxSource": "/rusangu",
 			"sAjaxDataProp": "",
 			"order": [[ 0, "asc" ]],
+			
 			"aoColumns": [
-			      { "mData": "id"   },
-		          { "mData": "name" },
-				  { "mData": "post" },
+			      { "mData": "id"  		},
+		          { "mData": "name"		},
+				  { "mData": "post" 	},
 				  { "mData": "dept" 	},
 				  { "mData": "salary"   },
 				  { "mData": "status"   },

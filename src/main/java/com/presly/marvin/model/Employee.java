@@ -53,7 +53,7 @@ public Employee() {}											// THIRD
 	public String getStatus()  		 	   { return status;		 	 }
 	public void setStatus(String status)   { this.status = status; 	 }
 
-	public Date getCreatedt()  		 	   { return createdt;		  }
+	public Date getCreatedt()  		 	   { return createdt;		   }
 	public void setCreatedt(Date createdt) { this.createdt = createdt; }
 
 }

@@ -17,7 +17,7 @@ public class Controller2 {
 	private Repox employeeService;
 	
 @RequestMapping(path="/rusangu", method=RequestMethod.GET)
-	public List<Employee> getAllEmployees()
+	public List<Employee> getEmployeesAll()
 	{
 		return employeeService.findAll();
 	}
