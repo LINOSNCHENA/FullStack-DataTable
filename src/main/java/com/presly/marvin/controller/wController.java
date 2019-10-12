@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.presly.marvin.view.wRepository;
+import com.presly.marvin.view.Repox;
 import com.presly.marvin.model.wEmployee;
 
 @RestController
@@ -21,7 +21,7 @@ import com.presly.marvin.model.wEmployee;
 
 public class wController {
 	@Autowired
-	wRepository employeesOfCMIS;
+	Repox employeesOfCMIS;
 
 @PostMapping(path = "accounts")											// POST
 	public wEmployee addItem(@RequestBody wEmployee employeeAppointed)

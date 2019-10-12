@@ -4,4 +4,4 @@ import org.springframework.stereotype.Repository;
 import com.presly.marvin.model.wEmployee;
 
 @Repository
-public interface wRepository extends JpaRepository<wEmployee, Integer> {}
+public interface Repox extends JpaRepository<wEmployee, Integer> {}
