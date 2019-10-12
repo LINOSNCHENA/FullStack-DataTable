@@ -10,7 +10,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "bank1")
-public class wEmployee {
+public class Employee {
 	
 	@Id
 	@Column(name = "id")
@@ -31,13 +31,15 @@ public class wEmployee {
    	@Column(name = "createdt",nullable = false,  columnDefinition="TIMESTAMP DEFAULT CURRENT_TIMESTAMP")
 	private Date createdt;
 
-public wEmployee(String name, String post, String dept,
-		int salary, String status, Date createdt) {
+public Employee(String name, String post, String dept,
+		int salary, String status, Date createdt) 			// SECOND
+		
+		{
 		this.name = name;			this.post = post;		
 		this.dept = dept;			this.salary = salary;	
 		this.status = status;		this.createdt = createdt;	 }
 
-public wEmployee()     			    {}
+public Employee()     			    {}						// THIRD
 	
 public int getId()		 		    {	return id;			}
 public void setId(int id) 		    {	this.id = id;		}

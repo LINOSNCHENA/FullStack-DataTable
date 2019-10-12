@@ -13,55 +13,55 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import com.presly.marvin.view.Repox;
-import com.presly.marvin.model.wEmployee;
+import com.presly.marvin.model.Employee;
 
 @RestController
 @RequestMapping("full")
 @CrossOrigin(origins = "http://localhost:4200")
 
-public class wController {
+public class Controller {
 	@Autowired
 	Repox employeesOfCMIS;
 
 @PostMapping(path = "accounts")											// POST
-	public wEmployee addItem(@RequestBody wEmployee employeeAppointed)
+	public Employee addItem(@RequestBody Employee employeeAppointed)
 		 { return employeesOfCMIS.save(employeeAppointed); }
  
 // http://8080/full/accounts/	
 @GetMapping(path = "accounts/{id}")										//	GET (*x2)
-	public wEmployee getItem(@PathVariable("id") int id)
+	public Employee getItem(@PathVariable("id") int id)
 		{ return employeesOfCMIS.findById(id).orElse(null);}
 @GetMapping(path = "accounts")
-	public List<wEmployee> getItems()
+	public List<Employee> getItems()
 		 { return employeesOfCMIS.findAll();	}
 		
 // http://8080/full/account/:[id]										//	UPDATE
 @PutMapping(path = "accounts")
-	public wEmployee saveOrUpdateItem(@RequestBody wEmployee employeeCurrent) 
+	public Employee saveOrUpdateItem(@RequestBody Employee employeeCurrent) 
 			  { return employeesOfCMIS.save(employeeCurrent);	}	
 
 @PutMapping(path = "accounts/{id}")										// UPDATING/Pending-(P)
-	public wEmployee updateItemById(@PathVariable int id, 
-	@Valid @RequestBody wEmployee employeePromoted) {
-		wEmployee employeeZ = employeesOfCMIS.findById(id).orElse(null);
+	public Employee updateItemById(@PathVariable int id, 
+	@Valid @RequestBody Employee employeePromoted) {
+		Employee employeeZ = employeesOfCMIS.findById(id).orElse(null);
 		employeeZ.setName(employeePromoted.getName());		
 		employeeZ.setDept(employeePromoted.getDept());		
 		employeeZ.setPost(employeePromoted.getPost());
 		employeeZ.setSalary(employeePromoted.getSalary());
 		employeeZ.setStatus(employeePromoted.getStatus());
-		wEmployee updatedItem = employeesOfCMIS.save(employeeZ);		
+		Employee updatedItem = employeesOfCMIS.save(employeeZ);		
 		return updatedItem;	}
 
 @PatchMapping(path = "accounts/{id}")									// PaATCH /updating-(P)
-	public wEmployee patchUpdateItemById(@PathVariable int id, 
-	@Valid @RequestBody wEmployee employeeDemoted) {
-		wEmployee employeeY = employeesOfCMIS.findById(id).orElse(null);
+	public Employee patchUpdateItemById(@PathVariable int id, 
+	@Valid @RequestBody Employee employeeDemoted) {
+		Employee employeeY = employeesOfCMIS.findById(id).orElse(null);
 		employeeY.setName(employeeDemoted.getName());
 		employeeY.setDept(employeeDemoted.getDept());		
 		employeeY.setPost(employeeDemoted.getPost());
 		employeeY.setSalary(employeeDemoted.getSalary());
 		employeeY.setStatus(employeeDemoted.getStatus());
-		wEmployee updatedItem = employeesOfCMIS.save(employeeY);
+		Employee updatedItem = employeesOfCMIS.save(employeeY);
 		return updatedItem; 
 	}
 
@@ -71,6 +71,6 @@ public class wController {
 			return "Employees' record erased successfully";	}
 
 @DeleteMapping(path = "accounts")								// DELETE-(pending)
-	public void deleteAllItems(wEmployee employeeFired) 
+	public void deleteAllItems(Employee employeeFired) 
 		{	employeesOfCMIS.deleteAll();	}
 }
