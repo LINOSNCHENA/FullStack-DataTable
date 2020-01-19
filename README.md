@@ -11,3 +11,9 @@ This API has several options of front-end posibilities that can be applied. In t
 All databases must always have seven fields to maintain consistances
 
 
+## Interface and UX
+Here are some screen shots for the running application;
+
+![ Muntu App ALL      # 1](https://github.com/LINOSNCHENA/Search-for-Resturants-Holland/blob/master/snaps/page1.png)
+![ Muntu App Searched # 2](https://github.com/LINOSNCHENA/Search-for-Resturants-Holland/blob/master/snaps/page2.png)
+![ Muntu App Searched # 3](https://github.com/LINOSNCHENA/Search-for-Resturants-Holland/blob/master/snaps/page3.png)
