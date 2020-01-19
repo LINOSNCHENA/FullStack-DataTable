@@ -14,6 +14,6 @@ All databases must always have seven fields to maintain consistances
 ## Interface and UX
 Here are some screen shots for the running application;
 
-![ Muntu App ALL      # 1](https://github.com/LINOSNCHENA/Search-for-Resturants-Holland/blob/master/snaps/page1.png)
-![ Muntu App Searched # 2](https://github.com/LINOSNCHENA/Search-for-Resturants-Holland/blob/master/snaps/page2.png)
+![ Muntu App ALL      # 1](https://github.com/LINOSNCHENA/Full-stack-app-using-Jquery-in-the-FrontEnd/blob/master/Snap_SHOTS%20(3).png)
+![ Muntu App Searched # 2](https://github.com/LINOSNCHENA/Full-stack-app-using-Jquery-in-the-FrontEnd/blob/master/Snap_SHOTS%20(2).png)
 ![ Muntu App Searched # 3](https://github.com/LINOSNCHENA/Full-stack-app-using-Jquery-in-the-FrontEnd/blob/master/Snap_SHOTS%20(1).png)
