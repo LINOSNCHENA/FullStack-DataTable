@@ -1,4 +1,4 @@
-# Full Stack- that has Data-Table frontend
+# Full Stack- using data data in the frond end
 
 This API has several options of front-end posibilities that can be applied. In this case we are provided with several verson. we shall attemp tot use several front-ends on the same backend. The following would be used in here;
 
