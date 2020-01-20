@@ -18,7 +18,8 @@ Here are some screen shots for the running application;
 ![ Muntu App Searched # 3](https://github.com/LINOSNCHENA/Full-stack-app-using-Jquery-in-the-FrontEnd/blob/master/pemba/page3.png)
 
 
-## Commandx
-
+## Two commands:  
+```
 mvn clean package
 mvn spring-boot:run
+```
