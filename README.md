@@ -13,9 +13,9 @@ This API has several options of front-end posibilities that can be applied. In t
 ## Interface and UX
 Here are some screen shots for the running application;
 
-![ Muntu App ALL      # 1](https://github.com/LINOSNCHENA/Full-stack-app-using-Jquery-in-the-FrontEnd/blob/master/Snap_SHOTS%20(3).png)
-![ Muntu App Searched # 2](https://github.com/LINOSNCHENA/Full-stack-app-using-Jquery-in-the-FrontEnd/blob/master/Snap_SHOTS%20(2).png)
-![ Muntu App Searched # 3](https://github.com/LINOSNCHENA/Full-stack-app-using-Jquery-in-the-FrontEnd/blob/master/Snap_SHOTS%20(1).png)
+![ Muntu App Searched # 1](https://github.com/LINOSNCHENA/Full-stack-app-using-Jquery-in-the-FrontEnd/blob/master/pemba/page1.png)
+![ Muntu App Searched # 2](https://github.com/LINOSNCHENA/Full-stack-app-using-Jquery-in-the-FrontEnd/blob/master/pemba/page1.png)
+![ Muntu App Searched # 3](https://github.com/LINOSNCHENA/Full-stack-app-using-Jquery-in-the-FrontEnd/blob/master/pemba/page1.png)
 
 
 ## Command
