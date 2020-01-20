@@ -15,8 +15,6 @@ Here are some screen shots for the running application;
 
 ![ Muntu App Searched # 1](https://github.com/LINOSNCHENA/Full-stack-app-using-Jquery-in-the-FrontEnd/blob/master/pemba/page1.png)
 ![ Muntu App Searched # 2](https://github.com/LINOSNCHENA/Full-stack-app-using-Jquery-in-the-FrontEnd/blob/master/pemba/page2.png)
-![ Muntu App Searched # 3](https://github.com/LINOSNCHENA/Full-stack-app-using-Jquery-in-the-FrontEnd/blob/master/pemba/page3.png)
-
 
 ## Two commands:  
 ```
