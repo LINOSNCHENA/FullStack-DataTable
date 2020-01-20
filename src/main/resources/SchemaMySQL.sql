@@ -13,7 +13,7 @@ createdt DATETIME default now());
 
 INSERT INTO bank1 ( name, dept, post, salary )
  VALUES
- ("KENNETH KAUNDA", "Enginering","Director", 21200 ),   ("Lorena Marvin", "MySQL","Administrator", 18500 ),
- ("Nikolas Marvin", "Engineering","Manager", 18500 ),  ("JURIOUS NYERERE", "PRESIDENT","TANZANIA", 32500 );
+ ("Kenneth Dennis", "Enginering","Doctor", 21200 ),   ("Lorena Marvin", "Accounts","Administrator", 18500 ),
+ ("Nikolas Marvin", "Engineering","Manager", 18500 ),  ("Jurious Ceaser", "UTB","Rector", 32500 );
 
 select* from bank1
