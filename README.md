@@ -1,4 +1,4 @@
-# SINGLE FRAMEWORK IN JAVA WITH DATATABLE IN FRONTEND 
+# SINGLE FRAMEWORK IN JAVA - DATATABLE IN FRONTEND 
 
 This API has several options of front-end possibilities that can be applied. In this case we are provided with several versions. we shall attempt to use several frontends on the same backend to experiment and exploit customer and public microservice consumptions. The following would be used in here;
 1. Angular frontend
