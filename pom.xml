@@ -10,9 +10,9 @@
 </parent>
 	<groupId>com.presly</groupId>
 	<artifactId>marvin</artifactId>
-	<version>fullstack</version>
-	<name>marvangular</name>
-	<description>Fullstack Angular/DataTable/SpringBoot/Postgresql project</description>
+	<version>Mugabe2020</version>
+	<name>data</name>
+	<description>Angular/DataTable/SpringBoot/Postgresql/MySQL</description>
 
 <properties>
 	<java.version>1.8</java.version>
@@ -62,7 +62,7 @@
 <dependency>
     <groupId>com.h2database</groupId>
     <artifactId>h2</artifactId>
-    <version>1.4.199</version>
+    <version>1.4.200</version>
     <scope>test</scope>
 </dependency>
 <dependency>
