@@ -1,28 +1,31 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml"
-	xmlns:th="http://www.thymeleaf.org">
-<head>
-	<meta charset="utf-8" />
-    <title>CommerzBank</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
-             integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
-            crossorigin="anonymous">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<head>
+    <meta charset="utf-8" />
+    <title>CommerzBank</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    
-	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
-	<script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+
+
+    <!-- Table populations 2020 -->
+
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
     <script src="/rusanguTable.js"></script>
 </head>
 
 <body>
-	<h1>BANK OF MONZE IT-DEPARTMENT EMPLOYEES</h1>
-	<table id="bank1" class="display">
-       <thead>
+    <br>
+    <h1 style="text-align: center; color: blue;">BANK PAYROLL DETAILS</h1>
+    <table id="bank1" class="display">
+        <thead>
             <tr>
                 <th>No.</th>
-				<th>Name</th>
+                <th>Name</th>
                 <th>Department</th>
                 <th>Position</th>
                 <th>Salary</th>
@@ -33,7 +36,7 @@
         <tfoot>
             <tr>
                 <th>No.</th>
-				<th>Name</th>
+                <th>Name</th>
                 <th>Department</th>
                 <th>Position</th>
                 <th>Salary</th>
@@ -41,6 +44,7 @@
                 <th>Registration Date</th>
             </tr>
         </tfoot>
-    </table>   
+    </table>
 </body>
+
 </html>
