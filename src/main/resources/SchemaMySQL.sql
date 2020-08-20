@@ -22,10 +22,10 @@ createdt DATETIME default now
     INSERT INTO bank1
         ( name, dept, post, salary )
     VALUES
-        ("Kenneth Dennis", "Enginering", "Developer", 21200 ),
+        ("Goliath Nelson", "Enginering", "Developer", 21200 ),
         ("Lorena Marvin", "Accounts", "Administrator", 18500 ),
-        ("Nikolas Presly", "Engineering", "Manager", 18500 ),
-        ("Wendy Ceaser", "MySQL", "Rector", 32500 );
+        ("Nicholas Presly", "Engineering", "Manager", 18500 ),
+        ("Wendy Leon", "MySQL Data", "Tester Developer", 32500 );
 
     select*
     from bank1
