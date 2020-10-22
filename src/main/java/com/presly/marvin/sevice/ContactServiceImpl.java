@@ -11,16 +11,16 @@ import org.springframework.stereotype.Service;
 public class ContactServiceImpl implements ContactService {
 
 	@Autowired
-	private Repo ContactRepository;
+	private Repo contactRepo;
 
 	@Override
 	public List<Contact> getAllContacts() {
-		return ContactRepository.findAll();
+		return contactRepo.findAll();
 	}
 
 	@Override
 	public Contact getContactById(long id) {
-		return ContactRepository.getOne(id);
+		return contactRepo.getOne(id);
 	}
 
 }
