@@ -7,12 +7,12 @@
 		<version>2.3.4.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
+
 	<groupId>com.presly</groupId>
 	<artifactId>marvin</artifactId>
-	<version>contactsDataTable2020</version>
+	<version>contactsDataTable 1.1.1</version>
 	<name>data</name>
-	<description>DataTable/SpringBoot/Postgresql/MySQL</description>
-
+	<description>DataTable/jQuery/Postgresql/MySQL</description>
 	<properties>
 		<java.version>15</java.version>
 	</properties>
@@ -57,22 +57,18 @@
 			<version>9.1.0.jre15-preview</version>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/com.h2database/h2 Monze#4-->
-		<dependency>
-			<groupId>com.h2database</groupId>
-			<artifactId>h2</artifactId>
-			<version>1.4.200</version>
-			<scope>test</scope>
-		</dependency>
 		<dependency>
 			<groupId>net.sourceforge.nekohtml</groupId>
 			<artifactId>nekohtml</artifactId>
 			<version>1.9.21</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-thymeleaf -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+			<version>2.3.4.RELEASE</version>
 		</dependency>
+
 		<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
 		<dependency>
 			<groupId>org.hibernate</groupId>

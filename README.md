@@ -1,4 +1,4 @@
-# SINGLE FRAMEWORK: DATATABLE JAVA/JQUERY IMPLEMENTATION 
+# DATATABLE AND JQUERY SPRING-IMPLEMENTATION 
 
 Options of front-end possibilities that can be applied in Java. We shall attempt to use several frontends on the same backend to experiment and exploit microservice consumptions. The following are main components;
 
@@ -27,4 +27,4 @@ Here are screen shots for the running application;
 ![ Muntu # 5](https://github.com/LINOSNCHENA/JAVA-Springboot-and-Data-tables-JQuery/blob/master/uxViews/page%20(5).png)
 ![ Muntu # 6](https://github.com/LINOSNCHENA/JAVA-Springboot-and-Data-tables-JQuery/blob/master/uxViews/page%20(6).png)
 ![ Muntu # 7](https://github.com/LINOSNCHENA/JAVA-Springboot-and-Data-tables-JQuery/blob/master/uxViews/page%20(7).png)
-![ Muntu # 8](https://github.com/LINOSNCHENA/JAVA-Springboot-and-Data-tables-JQuery/blob/master/uxViews/page%20(1).png)
+![ Muntu # 8](https://github.com/LINOSNCHENA/JAVA-Springboot-and-Data-tables-JQuery/blob/master/uxViews/page%20(7).png)
