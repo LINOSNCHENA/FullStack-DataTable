@@ -20,7 +20,7 @@ mvn spring-boot:run
 ## Interface and UX
 Here are screen shots for the running application;
 
-![ Muntu App Searched # 1](https://github.com/LINOSNCHENA/JAVA-Springboot-and-Data-tables-JQuery/blob/master/pemba/page%20(1).png)
-![ Muntu App Searched # 2](https://github.com/LINOSNCHENA/JAVA-Springboot-and-Data-tables-JQuery/blob/master/pemba/page%20(2).png)
-![ Muntu App Searched # 3](https://github.com/LINOSNCHENA/JAVA-Springboot-and-Data-tables-JQuery/blob/master/pemba/page%20(3).png)
-![ Muntu App Searched # 4](https://github.com/LINOSNCHENA/JAVA-Springboot-and-Data-tables-JQuery/blob/master/pemba/page%20(4).png)
+![ Muntu # 1](https://github.com/LINOSNCHENA/JAVA-Springboot-and-Data-tables-JQuery/blob/master/pemba/page%20(1).png)
+![ Muntu # 2](https://github.com/LINOSNCHENA/JAVA-Springboot-and-Data-tables-JQuery/blob/master/pemba/page%20(2).png)
+![ Muntu # 3](https://github.com/LINOSNCHENA/JAVA-Springboot-and-Data-tables-JQuery/blob/master/pemba/page%20(3).png)
+![ Muntu # 4](https://github.com/LINOSNCHENA/JAVA-Springboot-and-Data-tables-JQuery/blob/master/pemba/page%20(4).png)
